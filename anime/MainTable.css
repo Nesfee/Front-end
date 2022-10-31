@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dedede;
+}
+h1 {
+    color:brown;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#a5628c;
+}
+figcaption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#5A394E;
+    position: relative;
+    padding: 10px 10px;
+    margin: 0;
+}
+.MainTable {
+    padding: 0 485px;
+    text-align: center;
+}
