@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body bgcolor="#dedede">
+    <h1 align="middle">Регистрация</h1>
+    <form action="review.php" method="get">
+        <fieldset>
+            <legend>
+                Данные анимешника
+            </legend>
+            <p>
+            <label>
+                Имя пользователя:
+                <input type="text" name="username" maxlength="16" required="required">
+            </label>
+            </p>
+            <p>
+            <label>
+                Пароль:
+                <input type="password" name="password" maxlength="100" required="required">
+            </label>
+            </p>
+            <p>
+            <label>
+                Email:
+                <input type="email" name="email" maxlength="30" required="required">
+            </label>
+            </p>
+            <p>
+            <label>
+                Дата рождения:
+                <input type="date" name="date" required="required">
+            </label>
+            </p>
+            <p>
+            <input type="submit" value="Зарегистрироваться">
+            </p>
+        </fieldset>
+        <br />
+        <a href="main.html">Вернуться на главную страницу</a>
+    </form>
+</body>
+</html>
