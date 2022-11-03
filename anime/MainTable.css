@@ -1,23 +1,82 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #dedede;
 }
 h1 {
-    color:brown;
+    color:#5A394E;
 }
 h2 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    color:#a5628c;
+    color:#5A394E;
 }
 figcaption {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#5A394E;
+    font-size: 110%;
     position: relative;
-    padding: 10px 10px;
-    margin: 0;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 .MainTable {
-    padding: 0 485px;
+    background-color:#dedede;;
+    border : solid #5A394E;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 4px;
+    border-bottom-width: 5px ;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 825px;
+    padding: 45px;
+    margin: 10px auto 10px auto;
     text-align: center;
 }
+img{
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 0.3s;
+    -webkit-filter: grayscale(35%);
+    filter: grayscale(35%);
+}
+img:hover{
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 0.3s;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+.split {
+    position: relative;
+    margin-top: -20px;
+}
+.UpButton {
+    border: 1px solid black;
+    margin: 10px auto 10px auto;
+    width: 210px;
+    text-align: center;
+    padding: 3px;
+    background-color: #5A394E;
+    color: darkgrey;
+}
+.UpButton:hover{
+    color:white
+}
+a:link {
+    text-decoration: none;
+}
+@media (max-width: 680px) {
+    .MainTable {margin: 0;}
+    .MainTable td {
+      display: block;
+      margin-right: 0;
+    }
+    .MainTable:before,
+    .MainTable:after {content: none;}
+    .MainTable a {display: block;}
+    }
