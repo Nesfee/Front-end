@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистрация</title>
     <link href="TopMenu.css" type="text/css" rel="stylesheet" />
-    <link href="MainTable.css" type="text/css" rel="stylesheet" />
+    <link href="form.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
     <div name="top-menu">
@@ -24,36 +24,34 @@
             <legend>
                 Данные анимешника
             </legend>
-            <p>
-            <label>
+            <div class="form">
+            <label class="title">
                 Имя пользователя:
                 <input type="text" name="username" maxlength="16" required="required">
             </label>
-            </p>
-            <p>
-            <label>
+            </div>
+            <div class="form">
+            <label class="title">
                 Пароль:
                 <input type="password" name="password" maxlength="100" required="required">
             </label>
-            </p>
-            <p>
-            <label>
+            </div>
+            <div class="form">
+            <label class="title">
                 Email:
                 <input type="email" name="email" maxlength="30" required="required">
             </label>
-            </p>
-            <p>
-            <label>
+            </div >
+            <div class="form">
+            <label class="title">
                 Дата рождения:
                 <input type="date" name="date" required="required">
             </label>
-            </p>
-            <p>
-            <input type="submit" value="Зарегистрироваться">
-            </p>
+            </div>
+            <div class="form">
+            <input type="submit" class="submit" value="Зарегистрироваться">
+            </div>
         </fieldset>
-        <br />
-        <a href="main.html">Вернуться на главную страницу</a>
     </form>
 </body>
 </html>

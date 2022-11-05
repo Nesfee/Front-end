@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
-
 .top-menu {
     margin: 0 60px;
     width: 680px;
-    position: relative;
+    position: fixed;
+    z-index: 5;
     border: 2px solid black;
   }
   .menu-main {
@@ -21,7 +21,8 @@
     display: inline-block;
     padding: 15px 30px;
     font-family: 'PT Sans Caption', sans-serif;
-    color: #5A394E;
+    color: #C3073F;
+    text-shadow: 1px 0px 1px #C3073F;
     transition: .3s linear;
   }
   .menu-main a.current,
